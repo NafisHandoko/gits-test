@@ -14,6 +14,7 @@ node index.js
 * Berlaku untuk Test 2 juga
 
 
+## Screenshots
 [![Product Name Screen Shot][ss-desktop]](https://github.com/NafisHandoko/gits-test/blob/main/screenshot-desktop.png)
 [![Product Name Screen Shot][ss-mobile]](https://github.com/NafisHandoko/gits-test/blob/main/screenshot-mobile.png)
 
