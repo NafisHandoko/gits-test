@@ -137,7 +137,7 @@ header {
     height: 85vh;
     width: 100%;
     color: white;
-    background-image: url("/Test\ 3/assets/header/bg.webp");
+    background-image: url("assets/header/bg.webp");
     background-attachment: fixed;
     background-size: cover;
     background-position: top;
@@ -237,7 +237,7 @@ header .container a {
 }
 
 #services .services-bg {
-    background-image: url("/Test\ 3/assets/services-portfolio-bg.webp");
+    background-image: url("assets/services-portfolio-bg.webp");
     /* background-attachment: fixed; */
     background-size: cover;
     background-position: top left;
@@ -638,7 +638,7 @@ h3 {
 }
 
 #contact .bg {
-    background-image: url("/Test\ 3/assets/contact/bg.webp");
+    background-image: url("assets/contact/bg.webp");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
