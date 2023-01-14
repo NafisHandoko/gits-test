@@ -20,7 +20,7 @@
     <nav class="fixed">
         <div class="container">
             <img src="/Test 3/assets/nav/Logo-Main-1.png" alt="">
-            <ul>
+            <ul class="hide-on-mobile">
                 <a href="#">
                     <li>Home</li>
                 </a><a href="#">
@@ -37,7 +37,8 @@
                     <li>Insights</li>
                 </a>
             </ul>
-            <a class="contact" href="#">Contact Us!</a>
+            <a class="contact hide-on-mobile" href="#">Contact Us!</a>
+            <button><i class="bi bi-list"></i></button>
         </div>
     </nav>
     <nav class="unfixed">
@@ -60,19 +61,21 @@
                     <li>Insights</li>
                 </a>
             </ul>
-            <a class="contact" href="#">Contact Us!</a>
+            <a class="contact hide-on-mobile" href="#">Contact Us!</a>
+            <button><i class="bi bi-list"></i></button>
         </div>
     </nav>
+
     <header>
         <div class="overlay">
-            <div class="highlight">
+            <div class="highlight hide-on-mobile">
                 <p>Are you looking for education solution such as ZTE Chromebook, Google Workspace for Education, School
                     Transformation? <a href="#">Click here</a></p>
             </div>
             <div class="container">
                 <div>
                     <h1>Custom <span id="role-text">Application</span></h1>
-                    <h1>Development</h1>
+                    <h1 class="hidden">Development</h1>
                 </div>
                 <p>GITS.id is your partner to achieve your business goals and improve your company productivity.</p>
                 <a href="#">Consult with Us!</a>
@@ -82,7 +85,8 @@
 
     <section id="partners">
         <div class="container">
-            <h2>Over 100+ software business scaling up with GITS.id</h2>
+            <h2 class="hide-on-mobile">Over 100+ software business scaling up with GITS.id</h2>
+            <h2 class="hide-on-desktop">Growing with GITS.id</h2>
             <div class="logo">
                 <div class="logo-container">
                     <img src="/Test 3/assets/partners/1.jasa-raharja.png" alt="">
@@ -176,13 +180,14 @@
     </section>
 
     <section id="services">
+        <div class="services-bg"></div>
         <div class="container">
             <div class="head">
                 <div>
                     <p>SERVICES</p>
                     <h2>Get the best IT Service & Solution</h2>
                 </div>
-                <div class="nav">
+                <div class="nav hide-on-mobile">
                     <div class="nav-btn"><i class="bi bi-arrow-left"></i></div>
                     <div class="nav-btn"><i class="bi bi-arrow-right"></i></div>
                 </div>
@@ -289,7 +294,7 @@
                     </div>
                 </div>
             </div>
-            <div class="video">
+            <div class="video hide-on-mobile">
                 <img src="/Test 3/assets/promotion/home-yodi.png" alt="">
                 <div class="play-btn"><i class="bi bi-play-circle"></i></div>
             </div>
@@ -303,7 +308,7 @@
                     <p>TESTIMONIALS</p>
                     <h2>What our clients are saying</h2>
                 </div>
-                <div class="nav">
+                <div class="nav hide-on-mobile">
                     <div class="nav-btn"><i class="bi bi-arrow-left"></i></div>
                     <div class="nav-btn"><i class="bi bi-arrow-right"></i></div>
                 </div>
@@ -383,10 +388,10 @@
                 <h2>You have a new project?</h2>
                 <p class="desc">Come tell us what you need! Fill out this form and our solution team will response to
                     your email by maximum of 2×24 workday. Please be patient and wait for us.</p>
-                <iframe allowfullscreen="" frameborder="0"
+                <iframe class="hide-on-mobile" allowfullscreen="" frameborder="0"
                     src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCmRtwUENfH9E1iI4uTebOpeAWHiBovrYE&amp;q=Jl. Mars Barat I No 9, Bandung 40286&amp;zoom=15"
                     width="100%" height="450"></iframe>
-                <div class="contact-group">
+                <div class="contact-group hide-on-mobile">
                     <div class="contact-info">
                         <i class="bi bi-map"></i>
                         <span class="title">Head Office</span>
@@ -433,6 +438,26 @@
                 </div>
                 <a href="#">Send</a>
             </div>
+            <iframe class="hide-on-desktop" allowfullscreen="" frameborder="0"
+                src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCmRtwUENfH9E1iI4uTebOpeAWHiBovrYE&amp;q=Jl. Mars Barat I No 9, Bandung 40286&amp;zoom=15"
+                width="100%" height="450"></iframe>
+            <div class="contact-group hide-on-desktop">
+                <div class="contact-info">
+                    <i class="bi bi-map"></i>
+                    <span class="title">Head Office</span>
+                    <span class="desc">Jl. Mars Barat I No 9, Bandung 40286</span>
+                </div>
+                <div class="contact-info">
+                    <i class="bi bi-envelope"></i>
+                    <span class="title">Email</span>
+                    <span class="desc">connect@gits.id</span>
+                </div>
+                <div class="contact-info">
+                    <i class="bi bi-telephone-fill"></i>
+                    <span class="title">WhatsApp(chat only)</span>
+                    <span class="desc">0811-1309-991</span>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -440,7 +465,7 @@
         <div class="container">
             <div class="head">
                 <p>OUR PRODUCTS</p>
-                <div class="nav">
+                <div class="nav hide-on-mobile">
                     <div class="nav-btn"><i class="bi bi-arrow-left"></i></div>
                     <div class="nav-btn"><i class="bi bi-arrow-right"></i></div>
                 </div>
@@ -493,7 +518,16 @@
                 <div class="info">
                     <div class="links-logo">
                         <img src="/Test 3/assets/footer/gits-logo.png" alt="">
-                        <div class="links">
+                        <div class="links-mobile hide-on-desktop">
+                            <a href="#">Home</a>
+                            <a href="#">Our Works</a>
+                            <a href="#">Services</a>
+                            <a href="#">Careers</a>
+                            <a href="#">About</a>
+                            <a href="#">Blog</a>
+                            <a href="#">Insight</a>
+                        </div>
+                        <div class="links hide-on-mobile">
                             <div class="link-row">
                                 <a href="#">Our Works</a>
                                 -
